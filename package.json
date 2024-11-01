@@ -1,0 +1,21 @@
+{
+  "name": "notion-documentation-provider",
+  "description": "Node.js application to access and provide Notion documentation using Express.",
+  "author": "María Pizarro Cuevas for AI4Devs",
+  "private": "true",
+  "type": "module",
+  "version": "1.0.0",
+  "keywords": ["Notion", "GitHub", "GitHub Copilot", "documentation", "Express", "Node.js"],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@octokit/core": "^6.1.2",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  },
+  "license": "ISC"
+}
